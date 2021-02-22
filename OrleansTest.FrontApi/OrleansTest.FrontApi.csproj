@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Orleans.Core" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Orleans.OrleansHost" Version="1.5.10" />
+    <PackageReference Include="Microsoft.Orleans.OrleansProviders" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Orleans.OrleansRuntime" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Orleans.Runtime.Abstractions" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrleansTest.Service\OrleansTest.Service.csproj" />
+  </ItemGroup>
+
+</Project>
